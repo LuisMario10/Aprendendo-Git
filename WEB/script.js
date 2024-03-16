@@ -1,8 +1,6 @@
-var buttonCountClick = document.querySelector("#count-click");
 var divDisplay = document.querySelector("#display");
-
-let count = 0;
-buttonCountClick.addEventListener("click", () => {
-    count++;
-    divDisplay.innerText = `Valor Atual: ${count}`;
-})
+var date = new Date;
+var day = date.getDay();
+var hours = date.getHours();
+var minutes = date.getMinutes();
+divDisplay.innerHTML = `Day: ${day} - Time: ${hours}:${minutes}`

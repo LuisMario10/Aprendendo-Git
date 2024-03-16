@@ -20,7 +20,13 @@ git add *.extesão [adiciona ao versionamento todos os arquivos que tem a mesma 
 
 git commit -m "Mensagem do Commit" [Cria uma versão do codigo atual do projeto, apenas nos arquivos que foram adicionados no stage];
 
+git commit -a -m "mensagem" [adiciona o ultimo modificado no stage e commita]
+
 git retore "nome do arquivo" [volta para o arquivo atual para a que está no stage]
+
+git diff [compara a versão do codigo dos arquivos que vc ta escrevendo com as do stage]
+
+git diff "nome do arquivo" [mesma coisa, mas com um arquivo em especifico]
 
 git reset "nome do arquivo" [tira um arquivo do stage]
 
