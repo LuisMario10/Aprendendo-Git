@@ -22,6 +22,11 @@ git commit -m "Mensagem do Commit" [Cria uma versão do codigo atual do projeto,
 
 git commit -a -m "mensagem" [adiciona o ultimo modificado no stage e commita]
 
+git log [ve os commits ja feitos]
+
+!para exibir um numero especifico bata colocar -numero
+ex.: git log -4 : mostrará os 4 ultimos !
+
 git retore "nome do arquivo" [volta para o arquivo atual para a que está no stage]
 
 git diff [compara a versão do codigo dos arquivos que vc ta escrevendo com as do stage]
@@ -41,6 +46,8 @@ git reset --hard codigo da versão [permite voltar para uma versão do codigo, �
 git branch [mostra quantas branchs tem no projeto];
 
 git branch nome da branch [cria uma branch nomeada];
+
+git branch -m "novo nome" [muda o nome da branch]
 
 git checkout nome da branch [seleciona a branch que vc deseja];
 
