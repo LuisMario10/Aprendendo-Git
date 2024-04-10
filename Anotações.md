@@ -36,6 +36,7 @@ git diff "nome do arquivo" [mesma coisa, mas com um arquivo em especifico]
 git reset "nome do arquivo" [tira um arquivo do stage]
 
 git remote add origin; 
+ere
 
 git push [enviar para o repositorio remoto];
 
@@ -51,7 +52,7 @@ git branch -m "novo nome" [muda o nome da branch]
 
 git checkout nome da branch [seleciona a branch que vc deseja];
 
-git checkout -b nome da branch [cria uma branch e a seleciona];
+git checkout -b nome da branch [cria uma branch na seleciona];
 
                                             ||||||||
                                             vvvvvvvv
