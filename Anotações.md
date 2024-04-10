@@ -83,3 +83,6 @@ gitignore [os arquivos selecionados no gitignore serão ignorada
 touch .gitignore [cria um arquivo gitignore];
 
 (Dentro do gitignore deve se por o caminho até o arquivo ignorado)
+
+
+teste
